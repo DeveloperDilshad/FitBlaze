@@ -1,0 +1,64 @@
+{
+  "source": "/Users/dilshadp/FitBlaze/FitBlaze/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Welcome",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calories",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "123 kcal",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "52 mins",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stand",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "8 hours",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 54
+        }
+      }
+    ]
+  },
+  "version": 1
+}
