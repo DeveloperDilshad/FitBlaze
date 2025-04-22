@@ -1,5 +1,5 @@
 {
-  "source": "/Users/dilshadp/FitBlaze/FitBlaze/HomeView.swift",
+  "source": "/Users/dilshadp/FitBlaze/FitBlaze/Home/HomeView.swift",
   "tables": {
     "Localizable": [
       {
@@ -7,7 +7,7 @@
         "key": "Welcome",
         "location": {
           "startingColumn": 22,
-          "startingLine": 14
+          "startingLine": 19
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Calories",
         "location": {
           "startingColumn": 34,
-          "startingLine": 25
+          "startingLine": 30
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "123 kcal",
         "location": {
           "startingColumn": 34,
-          "startingLine": 30
+          "startingLine": 35
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "Active",
         "location": {
           "startingColumn": 34,
-          "startingLine": 37
+          "startingLine": 42
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "52 mins",
         "location": {
           "startingColumn": 34,
-          "startingLine": 42
+          "startingLine": 47
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "Stand",
         "location": {
           "startingColumn": 34,
-          "startingLine": 49
+          "startingLine": 54
         }
       },
       {
@@ -55,7 +55,23 @@
         "key": "8 hours",
         "location": {
           "startingColumn": 34,
-          "startingLine": 54
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fitness Activity",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show more",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 93
         }
       }
     ]
