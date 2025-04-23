@@ -7,7 +7,7 @@
         "key": "Welcome",
         "location": {
           "startingColumn": 22,
-          "startingLine": 19
+          "startingLine": 27
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Calories",
         "location": {
           "startingColumn": 34,
-          "startingLine": 30
+          "startingLine": 38
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "123 kcal",
         "location": {
           "startingColumn": 34,
-          "startingLine": 35
+          "startingLine": 43
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "Active",
         "location": {
           "startingColumn": 34,
-          "startingLine": 42
+          "startingLine": 50
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "52 mins",
         "location": {
           "startingColumn": 34,
-          "startingLine": 47
+          "startingLine": 55
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "Stand",
         "location": {
           "startingColumn": 34,
-          "startingLine": 54
+          "startingLine": 62
         }
       },
       {
@@ -55,7 +55,7 @@
         "key": "8 hours",
         "location": {
           "startingColumn": 34,
-          "startingLine": 59
+          "startingLine": 67
         }
       },
       {
@@ -63,7 +63,7 @@
         "key": "Fitness Activity",
         "location": {
           "startingColumn": 26,
-          "startingLine": 85
+          "startingLine": 93
         }
       },
       {
@@ -71,7 +71,7 @@
         "key": "Show more",
         "location": {
           "startingColumn": 30,
-          "startingLine": 93
+          "startingLine": 101
         }
       }
     ]
