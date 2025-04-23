@@ -4,5 +4,7 @@
 <dict>
 	<key>application-identifier</key>
 	<string>FLV4LHSYLM.Dilshad-P.FitBlaze</string>
+	<key>com.apple.developer.healthkit</key>
+	<true/>
 </dict>
 </plist>

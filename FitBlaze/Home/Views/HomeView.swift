@@ -43,7 +43,7 @@ struct HomeView: View {
                                     .bold()
                                     .foregroundStyle(.green)
                                 
-                                Text("\(viewModel.active) mins")
+                                Text("\(viewModel.exercise) mins")
                                     .bold()
                             }
                             .padding(.bottom)
@@ -66,7 +66,7 @@ struct HomeView: View {
                             
                             ProgressCircleView(progress: $viewModel.calories, goal: 600, color: .red)
                             
-                            ProgressCircleView(progress: $viewModel.active, goal: 60, color: .green)
+                            ProgressCircleView(progress: $viewModel.exercise, goal: 60, color: .green)
                                 .padding(.all,20)
                             
                             ProgressCircleView(progress: $viewModel.stand, goal: 12, color: .blue)
@@ -101,7 +101,7 @@ struct HomeView: View {
                     
                     LazyVGrid(columns: Array(repeating: GridItem(spacing:20), count: 2)) {
                         
-                        ForEach(viewModel.mockActivity) {activity in
+                        ForEach(viewModel.activities) {activity in
                             
                             ActivityCard(activity: activity)
                         }

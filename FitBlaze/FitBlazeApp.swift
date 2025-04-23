@@ -11,7 +11,7 @@ import SwiftUI
 struct FitBlazeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FitnessTabView()
         }
     }
 }

@@ -20,7 +20,7 @@
       },
       {
         "comment": "",
-        "key": "123 kcal",
+        "key": "%lld kcal",
         "location": {
           "startingColumn": 38,
           "startingLine": 34
@@ -36,7 +36,7 @@
       },
       {
         "comment": "",
-        "key": "52 mins",
+        "key": "%lld mins",
         "location": {
           "startingColumn": 38,
           "startingLine": 46
@@ -52,7 +52,7 @@
       },
       {
         "comment": "",
-        "key": "8 hours",
+        "key": "%lld hours",
         "location": {
           "startingColumn": 38,
           "startingLine": 58
