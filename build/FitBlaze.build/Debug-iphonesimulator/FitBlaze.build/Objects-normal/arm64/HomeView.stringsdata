@@ -1,77 +1,93 @@
 {
-  "source": "/Users/dilshadp/FitBlaze/FitBlaze/Home/HomeView.swift",
+  "source": "/Users/dilshadp/FitBlaze/FitBlaze/Home/Views/HomeView.swift",
   "tables": {
     "Localizable": [
       {
         "comment": "",
         "key": "Welcome",
         "location": {
-          "startingColumn": 22,
-          "startingLine": 27
+          "startingColumn": 26,
+          "startingLine": 18
         }
       },
       {
         "comment": "",
         "key": "Calories",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 38
+          "startingColumn": 38,
+          "startingLine": 29
         }
       },
       {
         "comment": "",
         "key": "123 kcal",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 43
+          "startingColumn": 38,
+          "startingLine": 34
         }
       },
       {
         "comment": "",
         "key": "Active",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 50
+          "startingColumn": 38,
+          "startingLine": 41
         }
       },
       {
         "comment": "",
         "key": "52 mins",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 55
+          "startingColumn": 38,
+          "startingLine": 46
         }
       },
       {
         "comment": "",
         "key": "Stand",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 62
+          "startingColumn": 38,
+          "startingLine": 53
         }
       },
       {
         "comment": "",
         "key": "8 hours",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 67
+          "startingColumn": 38,
+          "startingLine": 58
         }
       },
       {
         "comment": "",
         "key": "Fitness Activity",
         "location": {
-          "startingColumn": 26,
-          "startingLine": 93
+          "startingColumn": 30,
+          "startingLine": 84
         }
       },
       {
         "comment": "",
         "key": "Show more",
         "location": {
+          "startingColumn": 34,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Workouts",
+        "location": {
           "startingColumn": 30,
-          "startingLine": 101
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show more",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 121
         }
       }
     ]
