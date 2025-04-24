@@ -7,6 +7,7 @@
 
 import Foundation
 import HealthKit
+import SwiftUICore
 
 extension Date {
    
@@ -22,6 +23,14 @@ extension Date {
         return calendar.date(from: components) ?? Date()
     }
     
+    
+    func fetchMonthStartAndEndDate() ->(Date, Date) {
+        let calendar = Calendar.current
+        let startDateComponents = calendar.dateComponents([.year, .month], from: calendar.startOfDay(for: self))
+        let startDate = calendar.date(from: startDateComponents) ?? self
+        let endDate = calendar.date(byAdding: DateComponents(month: 1, day: -1), to: startDate) ?? self
+        return (startDate, endDate)
+    }
 }
 
 extension Double {
@@ -116,7 +125,7 @@ class HealthManager {
         healthStore.execute(query)
     }
     
-    // MARK :- Fitness Activity
+// MARK: - Fitness Activity
     
     func fetchTodaySteps(completion:@escaping(Result<Activity,Error>) -> Void) {
         
@@ -195,5 +204,24 @@ class HealthManager {
         return activities
     }
     
+// MARK: - Recent Workouts
+    
+    func fetchWorkoutsForMonth(month: Date, completion:@escaping(Result<[Workout], Error>)-> Void) {
+        let workouts = HKQuantityType(.activeEnergyBurned)
+        let (startDate, endDate) = month.fetchMonthStartAndEndDate()
+        let predicate = HKQuery.predicateForSamples(withStart: startDate, end: endDate)
+        let sortDescriptors = NSSortDescriptor(key: HKSampleSortIdentifierStartDate, ascending: false)
+        let query = HKSampleQuery(sampleType: workouts, predicate: predicate, limit: HKObjectQueryNoLimit, sortDescriptors:[sortDescriptors] ){_, result, error in
+            
+            guard let workouts = result as? [HKWorkout], error == nil else {
+                completion(.failure(URLError(.badURL)))
+                return
+            }
+            
+            let workoutsArray = workouts.map({Workout( id: Int?.none, image: $0.workoutActivityType.image, tintColor: $0.workoutActivityType.color, title: $0.workoutActivityType.title, duration: "\(Int($0.duration/60))", date: "\($0.startDate)", calories: "\(String(describing: $0.statistics(for: HKQuantityType(.activeEnergyBurned))))")})
+        }
+        healthStore.execute(query)
     }
+    
+}
 

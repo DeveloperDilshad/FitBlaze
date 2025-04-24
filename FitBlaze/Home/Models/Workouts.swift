@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct Workout: Identifiable {
-    let id: Int
+    let id: Int?
     let image: String
     let tintColor: Color
     let title: String

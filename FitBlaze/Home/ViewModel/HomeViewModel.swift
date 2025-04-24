@@ -109,7 +109,7 @@ class HomeViewModel: ObservableObject {
         
     }
     
-    //MARK:- Fitness Activity
+    // MARK: - Fitness Activity
     
     func fetchTodaySteps() {
         
