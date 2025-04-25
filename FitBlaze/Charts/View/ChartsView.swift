@@ -11,7 +11,13 @@ import Charts
 struct DailyStepModel: Identifiable {
     var id: UUID = UUID()
     var date: Date
-    var count: Double
+    var count: Int
+}
+
+struct MonthlyStepModel: Identifiable {
+    var id: UUID = UUID()
+    var date: Date
+    var count: Int
 }
 
 class ChartsViewModel: ObservableObject {
@@ -27,9 +33,34 @@ class ChartsViewModel: ObservableObject {
         
     ]
     
+    let mocYTDData = [
+        MonthlyStepModel(date: Date(), count: 12567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -1, to: Date() ) ?? Date(), count: 32567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -2, to: Date() ) ?? Date(), count: 22567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -3, to: Date() ) ?? Date(), count: 42567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -4, to: Date() ) ?? Date(), count: 52567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -5, to: Date() ) ?? Date(), count: 82567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -6, to: Date() ) ?? Date(), count: 72567),
+        MonthlyStepModel(date: Calendar.current.date(byAdding: .month, value: -7, to: Date() ) ?? Date(), count: 62567),
+    ]
+    
+    @Published var oneWeekAverage = 5678
+    @Published var oneWeekTotal = 12456
+    
     @Published var mockOneMonthData = [DailyStepModel]()
+    @Published var oneMonthAverage = 0
+    @Published var oneMontTotal = 0
+    
     @Published var mockThreeMonthData = [DailyStepModel]()
+    @Published var threeMonthAverage = 0
+    @Published var threeMontTotal = 0
+    
+    @Published var oneYTDAverage = 0
+    @Published var oneYTDTotal = 0
+    
     @Published var mockOneYearData = [DailyStepModel]()
+    @Published var oneYearAverage = 0
+    @Published var oneYearTotal = 0
     
     
     init () {
@@ -48,7 +79,7 @@ class ChartsViewModel: ObservableObject {
         for day in 0..<day {
             let currentDate = Calendar.current.date(byAdding: .day, value: -day, to: Date()) ?? Date()
             let randomStepCount = Int.random(in: 5000...15000)
-            let dailyStepData = DailyStepModel(date: currentDate, count: Double(randomStepCount))
+            let dailyStepData = DailyStepModel(date: currentDate, count: randomStepCount)
             mockData.append(dailyStepData)
         }
         return mockData
@@ -75,38 +106,61 @@ struct ChartsView: View {
                 .bold()
                 .frame(maxWidth: .infinity,alignment: .leading)
             
-            ZStack{
+            ZStack {
                 switch selectedOption {
                 case .oneWeek:
+                    
+                    VStack {
+                        
+                        ChartDataView(average: viewModel.oneWeekAverage,total: viewModel.oneWeekTotal)
+                        
                     Chart {
                         ForEach(viewModel.mockData) { data in
                             BarMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
                         }
                     }
+                    }
                 case .oneMonth:
-                    Chart {
-                        ForEach(viewModel.mockOneMonthData) { data in
-                            BarMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
+                    VStack {
+                        ChartDataView(average: viewModel.oneMonthAverage,total: viewModel.oneMontTotal)
+                        
+                        Chart {
+                            ForEach(viewModel.mockOneMonthData) { data in
+                                BarMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
+                            }
                         }
                     }
                 case .threeMonth:
-                    Chart {
-                        ForEach(viewModel.mockThreeMonthData) { data in
-                            BarMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
+                    VStack {
+                        ChartDataView(average: viewModel.threeMonthAverage,total: viewModel.threeMontTotal)
+                        Chart {
+                            ForEach(viewModel.mockThreeMonthData) { data in
+                                LineMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
+                            }
                         }
                     }
                 case .yearToDate:
-                    EmptyView()
+                    VStack {
+                        ChartDataView(average: viewModel.oneYTDAverage,total: viewModel.oneYTDAverage)
+                        Chart {
+                            ForEach(viewModel.mocYTDData) { data in
+                                BarMark(x: .value(data.date.formatted(), data.date, unit: .month), y: .value("Steps", data.count))
+                            }
+                        }
+                    }
                 case .onYear:
-                    Chart {
-                        ForEach(viewModel.mockOneYearData) { data in
-                            BarMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
+                    VStack {
+                        ChartDataView(average: viewModel.oneYearAverage,total: viewModel.oneYearTotal)
+                        Chart {
+                            ForEach(viewModel.mockOneYearData) { data in
+                                LineMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
+                            }
                         }
                     }
                 }
             }
             .foregroundStyle(.green)
-            .frame(maxHeight: 350)
+            .frame(maxHeight: 450)
             .padding(.horizontal)
             
             HStack {
