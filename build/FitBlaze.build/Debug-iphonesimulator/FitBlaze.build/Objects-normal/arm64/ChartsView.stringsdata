@@ -1,0 +1,32 @@
+{
+  "source": "/Users/dilshadp/FitBlaze/FitBlaze/Charts/View/ChartsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Charts",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steps",
+        "location": {
+          "startingColumn": 104,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steps",
+        "location": {
+          "startingColumn": 104,
+          "startingLine": 68
+        }
+      }
+    ]
+  },
+  "version": 1
+}
