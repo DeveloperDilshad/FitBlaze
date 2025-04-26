@@ -234,3 +234,50 @@ class HealthManager {
     
 }
 
+// MARK: - Charts Data
+
+extension HealthManager {
+    
+    struct YearChartDataResult {
+        let oneYearResult: [MonthlyStepModel]
+        let ytdResult: [MonthlyStepModel]
+    }
+    
+    func fetchYTDandOneYearData(completion: @escaping (Result<YearChartDataResult, Error>) -> Void) {
+        let steps = HKQuantityType(.stepCount)
+        let calender = Calendar.current
+        
+        var oneYearData = [MonthlyStepModel]()
+        var oneYTDData = [MonthlyStepModel]()
+        
+        for i in 0...11 {
+            let month = calender.date(byAdding: .month, value: -i, to: Date()) ?? Date()
+            let (startOfMonth, endOfMonth) = month.fetchMonthStartAndEndDate()
+            let predicate = HKQuery.predicateForSamples(withStart: startOfMonth, end: endOfMonth)
+            let query = HKStatisticsQuery(quantityType: steps, quantitySamplePredicate: predicate){_, result, error in
+                guard let count = result?.sumQuantity()?.doubleValue(for: .count()),error == nil else {
+                    completion(.failure(URLError(.badURL)))
+                    return
+                }
+                
+                if i == 0 {
+                    oneYearData.append(MonthlyStepModel(date: month, count: Int(count)))
+                    oneYTDData.append(MonthlyStepModel(date: month, count: Int(count)))
+                }else {
+                    oneYearData.append(MonthlyStepModel(date: month, count: Int(count)))
+                    
+                    if calender.component(.year, from: Date()) == calender.component(.year, from: month) {
+                        oneYTDData.append(MonthlyStepModel(date: month, count: Int(count)))
+                    }
+                }
+                
+                if i == 11 {
+                    completion(.success(YearChartDataResult(oneYearResult: oneYearData, ytdResult: oneYTDData)))
+                }
+            }
+            healthStore.execute(query)
+        }
+        
+    }
+}
+

@@ -57,7 +57,7 @@ struct ChartsView: View {
                     VStack {
                         ChartDataView(average: viewModel.oneYTDAverage,total: viewModel.oneYTDAverage)
                         Chart {
-                            ForEach(viewModel.mocYTDData) { data in
+                            ForEach(viewModel.oneYTDchartData) { data in
                                 BarMark(x: .value(data.date.formatted(), data.date, unit: .month), y: .value("Steps", data.count))
                             }
                         }
@@ -66,7 +66,7 @@ struct ChartsView: View {
                     VStack {
                         ChartDataView(average: viewModel.oneYearAverage,total: viewModel.oneYearTotal)
                         Chart {
-                            ForEach(viewModel.mockOneYearData) { data in
+                            ForEach(viewModel.oneYearChartData) { data in
                                 LineMark(x: .value(data.date.formatted(), data.date, unit: .day), y: .value("Steps", data.count))
                             }
                         }

@@ -7,7 +7,7 @@
         "key": "Charts",
         "location": {
           "startingColumn": 18,
-          "startingLine": 26
+          "startingLine": 18
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Steps",
         "location": {
           "startingColumn": 104,
-          "startingLine": 41
+          "startingLine": 33
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "Steps",
         "location": {
           "startingColumn": 108,
-          "startingLine": 51
+          "startingLine": 43
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "Steps",
         "location": {
           "startingColumn": 109,
-          "startingLine": 60
+          "startingLine": 52
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "Steps",
         "location": {
           "startingColumn": 110,
-          "startingLine": 69
+          "startingLine": 61
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "Steps",
         "location": {
           "startingColumn": 109,
-          "startingLine": 78
+          "startingLine": 70
         }
       }
     ]
