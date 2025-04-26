@@ -7,7 +7,7 @@
         "key": "Charts",
         "location": {
           "startingColumn": 18,
-          "startingLine": 46
+          "startingLine": 26
         }
       },
       {
@@ -15,15 +15,39 @@
         "key": "Steps",
         "location": {
           "startingColumn": 104,
-          "startingLine": 56
+          "startingLine": 41
         }
       },
       {
         "comment": "",
         "key": "Steps",
         "location": {
-          "startingColumn": 104,
-          "startingLine": 68
+          "startingColumn": 108,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steps",
+        "location": {
+          "startingColumn": 109,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steps",
+        "location": {
+          "startingColumn": 110,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steps",
+        "location": {
+          "startingColumn": 109,
+          "startingLine": 78
         }
       }
     ]
