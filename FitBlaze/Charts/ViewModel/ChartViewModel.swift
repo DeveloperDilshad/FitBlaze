@@ -12,7 +12,6 @@ class ChartsViewModel: ObservableObject {
     private let healthManager = HealthManager.shared
     
     
-    
     let mockData = [
         DailyStepModel(date: Date(), count: 12567),
         DailyStepModel(date: Calendar.current.date(byAdding: .day, value: -1, to: Date() ) ?? Date(), count: 12567),
@@ -61,7 +60,6 @@ class ChartsViewModel: ObservableObject {
         DispatchQueue.main.async {
             self.mockThreeMonthData = mock3MonthData
             self.mockOneMonthData = mock1MonthData
-
         }
         
         fetchYTDandOneYearData()
