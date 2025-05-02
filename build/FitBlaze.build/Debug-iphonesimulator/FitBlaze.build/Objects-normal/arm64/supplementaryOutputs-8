@@ -1,0 +1,18 @@
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/Views/ActivityCard.swift":
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.dia"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.swiftdeps"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.swiftconstvalues"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.d"
+"/Users/dilshadp/FitBlaze/FitBlaze/Charts/Model/DailyStepModel.swift":
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.swiftconstvalues"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.d"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.dia"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.swiftdeps"
+"/Users/dilshadp/FitBlaze/FitBlaze/Charts/Model/MonthlyStepModel.swift":
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/MonthlyStepModel.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/MonthlyStepModel.d"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/MonthlyStepModel.swiftdeps"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/MonthlyStepModel.swiftconstvalues"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/MonthlyStepModel.dia"

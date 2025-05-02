@@ -1,0 +1,18 @@
+"/Users/dilshadp/FitBlaze/FitBlaze/FitnessTabView.swift":
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.o"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.swiftdeps"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.d"
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/ViewModel/HomeViewModel.swift":
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeViewModel.swiftdeps"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeViewModel.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeViewModel.swiftconstvalues"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeViewModel.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeViewModel.d"
+"/Users/dilshadp/FitBlaze/FitBlaze/Charts/Model/ChartOptions.swift":
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ChartOptions.dia"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ChartOptions.swiftdeps"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ChartOptions.o"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ChartOptions.swiftconstvalues"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ChartOptions.d"

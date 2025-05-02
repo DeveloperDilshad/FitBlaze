@@ -1,0 +1,40 @@
+{
+  "source": "/Users/dilshadp/FitBlaze/FitBlaze/LeaderBoard/View/TermsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Leaderboard",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Username",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "By checking this box, you agree to our Terms of Service and Privacy Policy.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 61
+        }
+      }
+    ]
+  },
+  "version": 1
+}

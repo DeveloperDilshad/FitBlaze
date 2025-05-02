@@ -7,7 +7,7 @@
         "key": "Home",
         "location": {
           "startingColumn": 26,
-          "startingLine": 31
+          "startingLine": 33
         }
       },
       {
@@ -15,7 +15,15 @@
         "key": "Charts",
         "location": {
           "startingColumn": 26,
-          "startingLine": 38
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "LeaderBoard",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 47
         }
       }
     ]

@@ -9,7 +9,9 @@ import SwiftUI
 
 struct FitnessTabView: View {
     
+    @AppStorage("username") var username: String?
     @State private var selectedTab = "Home"
+    @State  var showTerms = false
     
     init() {
         
@@ -37,6 +39,16 @@ struct FitnessTabView: View {
                     Image(systemName: "chart.line.uptrend.xyaxis")
                     Text("Charts")
                 }
+            
+            LeaderBoardView(showTerms: $showTerms)
+                .tag( "LeaderBoard" )
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("LeaderBoard")
+                }
+        }
+        .onAppear {
+            showTerms = username == nil
         }
     }
 }

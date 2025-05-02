@@ -1,0 +1,18 @@
+"/Users/dilshadp/FitBlaze/FitBlaze/FitBlazeApp.swift":
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.swiftdeps"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.d"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.swiftconstvalues"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.dia"
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/Model/Workouts.swift":
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Workouts.d"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Workouts.swiftconstvalues"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Workouts.o"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Workouts.dia"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Workouts.swiftdeps"
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/Model/Activity.swift":
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Activity.d"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Activity.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Activity.swiftdeps"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Activity.dia"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/Activity.o"
