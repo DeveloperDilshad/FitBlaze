@@ -1,0 +1,38 @@
+dependencies: \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/include/grpc/module.modulemap \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/wire/internal/decode_fast.c \
+  /Users/dilshadp/FitBlaze/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/wire/internal/decode_fast.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/message.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/module.modulemap \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mem/arena.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/c_standard_library.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/DarwinFoundation.modulemap \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mem/alloc.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/port/def.inc \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/port/undef.inc \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mem/internal/arena.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/internal/message.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/internal/extension.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/value.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/base/string_view.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/extension.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/base/descriptor_constants.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/internal/extension.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/internal/field.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/internal/size_log2.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/internal/sub.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/message.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/enum.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/internal/enum.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/field.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/internal/message.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/internal/types.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/array.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/message/internal/array.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/sub.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/wire/internal/decoder.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/wire/decode.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/mini_table/extension_registry.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/upb/upb/wire/eps_copy_input_stream.h \
+  /Users/dilshadp/FitBlaze/Pods/gRPC-Core/third_party/utf8_range/utf8_range.h

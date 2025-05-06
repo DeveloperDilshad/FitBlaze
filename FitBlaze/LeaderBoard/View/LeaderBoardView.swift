@@ -11,7 +11,6 @@ import SwiftUI
 struct LeaderBoardUser: Codable,Identifiable {
     
     var id: UUID = UUID()
-    let createdAt: String
     let usename: String
     let count: Int
     
@@ -20,11 +19,11 @@ struct LeaderBoardUser: Codable,Identifiable {
 class LeaderBoardViewModel: ObservableObject {
     
     let mockData = [
-        LeaderBoardUser(createdAt: "", usename: "James", count: 1466),
-        LeaderBoardUser(createdAt: "", usename: "Sean Allen", count: 1576),
-        LeaderBoardUser(createdAt: "", usename: "Shane", count: 1097)
-        ,LeaderBoardUser(createdAt: "", usename: "Quil", count: 19877)
-        ,LeaderBoardUser(createdAt: "", usename: "Baby", count: 134),
+        LeaderBoardUser( usename: "James", count: 1466),
+        LeaderBoardUser( usename: "Sean Allen", count: 1576),
+        LeaderBoardUser( usename: "Shane", count: 1097)
+        ,LeaderBoardUser(usename: "Quil", count: 19877)
+        ,LeaderBoardUser(usename: "Baby", count: 134),
     ]
 }
 
@@ -69,6 +68,14 @@ struct LeaderBoardView: View {
         .frame(maxHeight: .infinity,alignment: .top)
         .fullScreenCover(isPresented:$showTerms){
             TermsView()
+        }
+        .task {
+            do{
+                try await DatabaseManager.shared.postStepCountUpdateFor(username: "Json", count: 12340)
+            }catch {
+                print(error.localizedDescription)
+            }
+            
         }
     }
 }

@@ -1,0 +1,18 @@
+"/Users/dilshadp/FitBlaze/FitBlaze/Charts/Model/DailyStepModel.swift":
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.swiftconstvalues"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.d"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.o"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/DailyStepModel.swiftdeps"
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/Views/ActivityCard.swift":
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.o"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.swiftdeps"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.d"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.swiftconstvalues"
+"/Users/dilshadp/FitBlaze/FitBlaze/FitBlazeApp.swift":
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.d"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitBlazeApp.swiftdeps"

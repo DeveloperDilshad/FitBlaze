@@ -1,0 +1,18 @@
+"/Users/dilshadp/FitBlaze/FitBlaze/FitnessTabView.swift":
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.d"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.swiftdeps"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.o"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/FitnessTabView.swiftconstvalues"
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/Views/HomeView.swift":
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeView.dia"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeView.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeView.swiftdeps"
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeView.o"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/HomeView.d"
+"/Users/dilshadp/FitBlaze/FitBlaze/Home/Views/ActivityCard.swift":
+  object: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.o"
+  const-values: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.swiftdeps"
+  diagnostics: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.dia"
+  dependencies: "/Users/dilshadp/FitBlaze/build/FitBlaze.build/Debug-iphonesimulator/FitBlaze.build/Objects-normal/arm64/ActivityCard.d"

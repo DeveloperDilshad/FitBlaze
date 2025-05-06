@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Modules/module.modulemap \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/e_chacha20poly1305.c \
+  /Users/dilshadp/FitBlaze/Pods/Target\ Support\ Files/BoringSSL-GRPC/BoringSSL-GRPC-prefix.pch \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/aead.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/base.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/c_standard_library.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/DarwinFoundation.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/DarwinBasic.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/TargetConditionals.modulemap \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/is_boringssl.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/opensslconf.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/target.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/boringssl_prefix_symbols.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/chacha.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/cipher.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/err.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/mem.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/poly1305.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/internal.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../internal.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/arm_arch.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/crypto.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/sha.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/thread.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/ex_data.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/stack.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../chacha/internal.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../chacha/../internal.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../fipsmodule/cipher/internal.h \
+  /Users/dilshadp/FitBlaze/build/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/aes.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../fipsmodule/cipher/../../internal.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../fipsmodule/cipher/../modes/internal.h \
+  /Users/dilshadp/FitBlaze/Pods/BoringSSL-GRPC/src/crypto/cipher_extra/../fipsmodule/cipher/../modes/../../internal.h

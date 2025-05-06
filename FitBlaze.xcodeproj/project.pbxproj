@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B1F54855DD77962CC49CC017 /* Pods_FitBlaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5526E57A1CC376231A23E0B8 /* Pods_FitBlaze.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		5526E57A1CC376231A23E0B8 /* Pods_FitBlaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitBlaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5535464B11A88A4FBDE5A4D3 /* Pods-FitBlaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitBlaze.debug.xcconfig"; path = "Target Support Files/Pods-FitBlaze/Pods-FitBlaze.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C482EF5A5B9EB8641B402F /* Pods-FitBlaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitBlaze.release.xcconfig"; path = "Target Support Files/Pods-FitBlaze/Pods-FitBlaze.release.xcconfig"; sourceTree = "<group>"; };
 		EF22F1B52DB7AEB700D55B66 /* FitBlaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBlaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F54855DD77962CC49CC017 /* Pods_FitBlaze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5679BA7F8BFF0079DD5E890F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5535464B11A88A4FBDE5A4D3 /* Pods-FitBlaze.debug.xcconfig */,
+				E6C482EF5A5B9EB8641B402F /* Pods-FitBlaze.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81471E343D598CA14B465501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5526E57A1CC376231A23E0B8 /* Pods_FitBlaze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF22F1AC2DB7AEB700D55B66 = {
 			isa = PBXGroup;
 			children = (
 				EF22F1B72DB7AEB700D55B66 /* FitBlaze */,
 				EF22F1B62DB7AEB700D55B66 /* Products */,
+				5679BA7F8BFF0079DD5E890F /* Pods */,
+				81471E343D598CA14B465501 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF22F1C02DB7AEB800D55B66 /* Build configuration list for PBXNativeTarget "FitBlaze" */;
 			buildPhases = (
+				3384FEFC96784448AF5B30E7 /* [CP] Check Pods Manifest.lock */,
 				EF22F1B12DB7AEB700D55B66 /* Sources */,
 				EF22F1B22DB7AEB700D55B66 /* Frameworks */,
 				EF22F1B32DB7AEB700D55B66 /* Resources */,
+				D6191D1DB7C2706A380E4818 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -77,8 +106,6 @@
 				EF22F1B72DB7AEB700D55B66 /* FitBlaze */,
 			);
 			name = FitBlaze;
-			packageProductDependencies = (
-			);
 			productName = FitBlaze;
 			productReference = EF22F1B52DB7AEB700D55B66 /* FitBlaze.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +153,52 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3384FEFC96784448AF5B30E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitBlaze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6191D1DB7C2706A380E4818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitBlaze/Pods-FitBlaze-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitBlaze/Pods-FitBlaze-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitBlaze/Pods-FitBlaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF22F1B12DB7AEB700D55B66 /* Sources */ = {
@@ -261,6 +334,7 @@
 		};
 		EF22F1C12DB7AEB800D55B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5535464B11A88A4FBDE5A4D3 /* Pods-FitBlaze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,6 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FLV4LHSYLM;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FitBlaze/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow to explore all features of app";
@@ -292,6 +367,7 @@
 		};
 		EF22F1C22DB7AEB800D55B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C482EF5A5B9EB8641B402F /* Pods-FitBlaze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FLV4LHSYLM;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FitBlaze/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow to explore all features of app";
