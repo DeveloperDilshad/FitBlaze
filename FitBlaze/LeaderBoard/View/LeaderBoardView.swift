@@ -71,7 +71,7 @@ struct LeaderBoardView: View {
         }
         .task {
             do{
-                try await DatabaseManager.shared.postStepCountUpdateFor(username: "Json", count: 12340)
+                try await DatabaseManager.shared.postStepCountUpdateFor(username: "Kevin", count: 56789)
             }catch {
                 print(error.localizedDescription)
             }

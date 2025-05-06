@@ -15,12 +15,13 @@ class DatabaseManager {
     private init() {}
     
     let database = Firestore.firestore()
-    let weaklyLeaderBoard = "\(String(describing: Date().mondayDateFormat))-leaderboard"
+    let weaklyLeaderBoard = "\(Date().mondayDateFormat())-leaderboard"
     
     
     // fetch Leaderboard
-    func fetchLeaderboard() async throws {
-        _ = try await database.collection(weaklyLeaderBoard).getDocuments()
+    func fetchLeaderboard() async throws -> [LeaderBoardUser] {
+        let snapshot = try await database.collection(weaklyLeaderBoard).getDocuments()
+        return try snapshot.documents.compactMap({ try $0.data(as: LeaderBoardUser.self)})
     }
     
     
