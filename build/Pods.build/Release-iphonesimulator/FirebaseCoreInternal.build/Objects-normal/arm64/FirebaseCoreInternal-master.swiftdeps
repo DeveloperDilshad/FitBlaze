@@ -1,0 +1,20 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "a95576b757dd1ddacadfe6e212c67816bdf7f75d6b647bd2d15a188c2d4729bb"
+build_start_time: [1753712361, 587631000]
+build_end_time: [1753712415, 759653000]
+inputs:
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift": [1746531521, 751743855]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift": [1746531521, 752237328]
+  ? "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatLoggingTestUtils.swift"
+  : [1746531521, 752771593]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift": [1746531521, 753085853]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift": [1746531521, 753211148]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift": [1746531521, 753422613]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift": [1746531521, 751853858]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift": [1746531521, 751624310]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift": [1746531521, 753524199]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift": [1746531521, 753309276]
+  ? "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1746531521, 751972820]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift": [1746531521, 752348623]
+  "/Users/dilshadp/FitBlaze/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/Utilities/AtomicBox.swift": [1746531521, 753904335]

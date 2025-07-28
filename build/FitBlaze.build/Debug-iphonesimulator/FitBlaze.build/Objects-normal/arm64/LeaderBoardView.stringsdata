@@ -6,24 +6,40 @@
         "comment": "",
         "key": "Leaderboard",
         "location": {
-          "startingColumn": 18,
-          "startingLine": 39
+          "startingColumn": 22,
+          "startingLine": 19
         }
       },
       {
         "comment": "",
         "key": "Name",
         "location": {
-          "startingColumn": 22,
-          "startingLine": 44
+          "startingColumn": 26,
+          "startingLine": 24
         }
       },
       {
         "comment": "",
         "key": "Steps",
         "location": {
-          "startingColumn": 22,
-          "startingLine": 49
+          "startingColumn": 26,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 41
         }
       },
       {
@@ -31,7 +47,7 @@
         "key": "%lld",
         "location": {
           "startingColumn": 30,
-          "startingLine": 61
+          "startingLine": 59
         }
       }
     ]
