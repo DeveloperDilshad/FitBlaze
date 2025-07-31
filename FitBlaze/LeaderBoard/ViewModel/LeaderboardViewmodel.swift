@@ -13,12 +13,7 @@ class LeaderBoardViewModel: ObservableObject {
     init(){
         Task {
             do {
-                try await postStepCountUpdateFor(username: "xcode", count: 123)
-                let result = try await fetchLeaderBoard()
-                
-                DispatchQueue.main.async {
-                    self.leaderResult = result
-                }
+                try await setLeaderboardDara()
             }catch{
                 print(error.localizedDescription)
             }
@@ -35,6 +30,15 @@ class LeaderBoardViewModel: ObservableObject {
         ,LeaderBoardUser(usename: "Baby", count: 134),
     ]
     
+    func setLeaderboardDara()async throws {
+        try await postStepCountUpdateFor()
+        let result = try await fetchLeaderBoard()
+        
+        DispatchQueue.main.async {
+            self.leaderResult = result
+        }
+        
+    }
     
     func fetchLeaderBoard() async throws  -> LeaderBoardResult {
         let leaders = try await DatabaseManager.shared.fetchLeaderboard()
@@ -49,9 +53,19 @@ class LeaderBoardViewModel: ObservableObject {
         }
     }
         
-        func postStepCountUpdateFor(username: String, count: Int) async throws {
-            try await DatabaseManager.shared.postStepCountUpdateFor(username: username, count: count)
+        func postStepCountUpdateFor() async throws {
+            let steps = try await fetchCurrentweekStepcount()
+            guard let username = UserDefaults.standard.string(forKey: "username") else {
+                throw URLError(.badURL)
+            }
+            try await DatabaseManager.shared.postStepCountUpdateFor(username: username, count: Int(steps))
         }
     
-    
+    private func fetchCurrentweekStepcount() async throws -> Double {
+        try await withCheckedThrowingContinuation { continuation in
+            HealthManager.shared.fetchCurrentweekStepcount { result in
+                continuation.resume(with: result)
+            }
+        }
+    }
 }

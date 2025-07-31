@@ -12,6 +12,7 @@ struct LeaderBoardView: View {
         
  @StateObject private var viewModel = LeaderBoardViewModel()
  @Binding var showTerms: Bool
+ @AppStorage("username") var username: String?
         
     var body: some View {
             VStack {
@@ -37,6 +38,12 @@ struct LeaderBoardView: View {
                         HStack {
                             Text("\(idx + 1)")
                             Text(data.usename)
+                            
+                            if username == data.usename {
+                                Image(systemName: "crown.fill")
+                                    .foregroundStyle(Color.yellow)
+                            }
+                            
                             Spacer()
                             Text("\(data.count)")
                             
@@ -67,12 +74,12 @@ struct LeaderBoardView: View {
             .fullScreenCover(isPresented:$showTerms){
                 TermsView()
             }
-            .task {
-                do{
-                    try await DatabaseManager.shared.postStepCountUpdateFor(username: "Kevin", count: 56789)
-                }catch {
-                    print(error.localizedDescription)
-                }
+            .onChange(of: showTerms) {
+                    if !showTerms && username != nil {
+                        Task {
+                            try await viewModel.setLeaderboardDara()
+                        }
+                    }
                 
             }
         }
