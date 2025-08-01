@@ -15,6 +15,7 @@ struct LeaderBoardView: View {
  @AppStorage("username") var username: String?
         
     var body: some View {
+        ZStack {
             VStack {
                 
                 Text("Leaderboard")
@@ -71,17 +72,21 @@ struct LeaderBoardView: View {
                 }
             }
             .frame(maxHeight: .infinity,alignment: .top)
-            .fullScreenCover(isPresented:$showTerms){
-                TermsView()
-            }
-            .onChange(of: showTerms) {
-                    if !showTerms && username != nil {
-                        Task {
-                            try await viewModel.setLeaderboardDara()
-                        }
-                    }
+            
+            if showTerms {
+                Color.white
                 
+                TermsView(showTerms: $showTerms)
             }
+          }
+        .onChange(of: showTerms) {
+            if !showTerms && username != nil {
+                Task {
+                    try await viewModel.setLeaderboardDara()
+                }
+            }
+            
+        }
         }
     }
 

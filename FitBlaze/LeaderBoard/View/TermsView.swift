@@ -10,7 +10,7 @@ import SwiftUI
 struct TermsView: View {
     
     @AppStorage("username") var username: String?
-    @Environment(\.dismiss) var dismiss
+    @Binding var showTerms: Bool
     @State var name = ""
     @State var acceptedTerms = false
     
@@ -54,7 +54,7 @@ struct TermsView: View {
             Button {
                 if acceptedTerms && name.count > 2 {
                     username = name
-                    dismiss()
+                    showTerms = false
                 }
                 
             } label: {
@@ -75,5 +75,5 @@ struct TermsView: View {
 }
 
 #Preview {
-    TermsView()
+    TermsView(showTerms: .constant(false))
 }
