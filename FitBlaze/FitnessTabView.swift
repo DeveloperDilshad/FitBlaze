@@ -46,6 +46,13 @@ struct FitnessTabView: View {
                     Image(systemName: "list.bullet")
                     Text("LeaderBoard")
                 }
+            
+            ProfileView()
+                .tag( "Profile" )
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Profile")
+                }
         }
         .onAppear {
             showTerms = username == nil

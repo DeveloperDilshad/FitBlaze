@@ -4,18 +4,18 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Good Morining",
+        "key": "Name.....",
         "location": {
-          "startingColumn": 26,
-          "startingLine": 23
+          "startingColumn": 27,
+          "startingLine": 51
         }
       },
       {
         "comment": "",
-        "key": "Name",
+        "key": "Good Morining",
         "location": {
           "startingColumn": 26,
-          "startingLine": 27
+          "startingLine": 40
         }
       }
     ]
