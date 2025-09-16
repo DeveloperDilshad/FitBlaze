@@ -129,16 +129,28 @@ struct ProfileView: View {
             
             VStack {
                 FitnessProfileButton(title: "Contact Us", image: "envelope"){
-                    
+                    viewModel.openMailApp()
                 }
                 
-
-                FitnessProfileButton(title: "Privacy policy", image: "doc"){
-                    
+                
+                Link(destination: URL(string: "https://github.com/DeveloperDilshad/Terms/blob/main/privacy%20%26%20policy")!) {
+                    HStack {
+                        Image(systemName: "doc")
+                        Text("Privacy & Policy")
+                    }
+                    .foregroundStyle(Color.primary)
+                    .padding()
+                    .frame(maxWidth: .infinity,alignment: .leading)
                 }
                 
-                FitnessProfileButton(title: "Terms of Service", image: "info.circle"){
-                    
+                Link(destination: URL(string: "https://github.com/DeveloperDilshad/Terms/blob/main/terms%20%26%20services")!) {
+                    HStack {
+                        Image(systemName: "info.circle")
+                        Text("Terms of Service")
+                    }
+                    .foregroundStyle(Color.primary)
+                    .padding()
+                    .frame(maxWidth: .infinity,alignment: .leading)
                 }
                 
                

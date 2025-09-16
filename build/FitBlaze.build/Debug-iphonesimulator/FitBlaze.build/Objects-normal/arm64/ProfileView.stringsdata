@@ -7,7 +7,7 @@
         "key": "Name.....",
         "location": {
           "startingColumn": 27,
-          "startingLine": 51
+          "startingLine": 43
         }
       },
       {
@@ -15,7 +15,23 @@
         "key": "Good Morining",
         "location": {
           "startingColumn": 26,
-          "startingLine": 40
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Privacy & Policy",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Terms of Service",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 149
         }
       }
     ]

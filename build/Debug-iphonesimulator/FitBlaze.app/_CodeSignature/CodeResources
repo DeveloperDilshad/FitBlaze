@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		iseXX7uLiBYs0Msg67Z9OW9zQS0=
+		</data>
 		<key>FitBlaze.debug.dylib</key>
 		<data>
-		Z85uw41DItWR+EDv/ifL85MrkWI=
+		wa5ZU+jD3Yj/JUc5VP8oz6joJOg=
 		</data>
 		<key>Frameworks/FBLPromises.framework/FBLPromises</key>
 		<data>
@@ -326,7 +330,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OTYI5iVwQVVk9AiVC3YVcabDxKM=
+		Quu+80fC6+fLD4I/v3pTGmv0zxk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -339,11 +343,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			22GKOiPHi0vuKrJydKWxqzaQaKS8ENdAoK+XqFqMick=
+			</data>
+		</dict>
 		<key>FitBlaze.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Rv5A+lkrmNbzZB63AUvz8LcQbM+uS7rydx51QHXvJU=
+			6q4lv2eAm9pm1AoRQ8QyLnnMET/l+/TMaKN10qIXTTo=
 			</data>
 		</dict>
 		<key>Frameworks/FBLPromises.framework/FBLPromises</key>

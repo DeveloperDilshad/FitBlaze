@@ -5,7 +5,7 @@
 //  Created by Dilshad P on 11/08/25.
 //
 
-import Foundation
+import SwiftUI
 
 class ProfileViewModel: ObservableObject {
     
@@ -49,5 +49,24 @@ class ProfileViewModel: ObservableObject {
         profileImage = selectedImage
         UserDefaults.standard.set(selectedImage, forKey: "profileImage")
         self.dismiss()
+    }
+    
+    func openMailApp(){
+        let emailSubject = "Fitblaze App - Contact Us"
+        let recipientEmail = "support@fitblaze.com"
+        
+        let encodedSubject = emailSubject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let encodedEmail = recipientEmail.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        
+        let urlString = "mailto:\(encodedEmail)?subject=\(encodedSubject)"
+        
+        guard let url = URL(string: urlString) else {
+            return
+        }
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)
+        }else {
+            return
+        }
     }
 }

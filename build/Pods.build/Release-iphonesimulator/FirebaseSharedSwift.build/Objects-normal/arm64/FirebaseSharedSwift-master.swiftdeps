@@ -1,8 +1,0 @@
-version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
-options: "f2a96c1f8e2dd1ef41ca2188db44d4c245b7d58a57a03ed58ca88d830fc677a4"
-build_start_time: [1753712361, 562916000]
-build_end_time: [1753712415, 698547000]
-inputs:
-  "/Users/dilshadp/FitBlaze/Pods/FirebaseSharedSwift/FirebaseSharedSwift/Sources/FirebaseRemoteConfigValueDecoding.swift": [1746531521, 911604220]
-  ? "/Users/dilshadp/FitBlaze/Pods/FirebaseSharedSwift/FirebaseSharedSwift/Sources/third_party/FirebaseDataEncoder/FirebaseDataEncoder.swift"
-  : [1746531521, 911263627]
